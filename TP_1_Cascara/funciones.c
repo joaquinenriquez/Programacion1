@@ -53,8 +53,8 @@ float division(float num1, float num2){
  * \return Factorial de Operando1
  *
  */
-int factorial(int num1){
-    int result;
+long long int factorial(int num1){
+    long long int result;
     if (num1 == 1)
         return 1;
     result = num1 * factorial(num1 - 1);

@@ -3,7 +3,8 @@
 #include "funciones.h"
 
 int refreshMenu();
-float operator1 = 0, operator2 = 0, result = 0;
+float operator1 = 0, operator2 = 0;
+long long int result = 0;
 int flagOperator1 = 0, flagOperator2 = 0;
 int noDefine = 0;
 
@@ -83,7 +84,7 @@ int refreshMenu(){
     printf("9- Salir\n");
 
     if (noDefine == 0){
-        printf("\n-\nRESULTADO = %.2f", result);
+        printf("\n-\nRESULTADO = %llu", result);
     } else if (noDefine == 1){
         printf("\n-\nRESULTADO = LA DIVISION POR CERO NO ESTA DEFINIDA!");
         noDefine = 0;
