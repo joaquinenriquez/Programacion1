@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1493445623 source:/home/alumno/Documentos/ProgramacionI/TPs/TP2/TP_2_Cascara/main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"utn.h"
+
+1493436293 /home/alumno/Documentos/ProgramacionI/TPs/TP2/TP_2_Cascara/funciones.h
+
+1493447040 source:/home/alumno/Documentos/ProgramacionI/TPs/TP2/TP_2_Cascara/funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	"utn.h"
+	"funciones.h"
+
+1457824123 /home/alumno/Documentos/ProgramacionI/TPs/TP2/TP_2_Cascara/utn.h
+
+1493447158 source:/home/alumno/Documentos/ProgramacionI/TPs/TP2/TP_2_Cascara/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
